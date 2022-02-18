@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void closeActivity(View view){
-        finish();
+        this.finishAffinity();
     }
 
     @Override

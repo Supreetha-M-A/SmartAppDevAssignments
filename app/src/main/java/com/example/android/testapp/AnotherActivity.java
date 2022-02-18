@@ -58,8 +58,6 @@ public class AnotherActivity extends Activity {
 
     public void stopActivity(View view){
         Log.e("---Finishing", "Activity B---");
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-//        finish();
+        finish();
     }
 }
